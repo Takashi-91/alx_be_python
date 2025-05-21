@@ -1,6 +1,6 @@
 
 # This script defines a function to add two numbers and prints the result.
-age=int(input('Enter your current age: '))
+age=int(input('How old are you: '))
 
 #Methods
 def future_age(age):
