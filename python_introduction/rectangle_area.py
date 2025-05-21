@@ -1,6 +1,6 @@
 #variables          
-length=5
-width=10
+length = 5
+width = 10
 
 #Method
 def _area(length, width):
