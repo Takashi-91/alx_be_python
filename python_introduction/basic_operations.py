@@ -14,8 +14,7 @@ def multiply(number1, number2):
     return number1 * number2
 
 
-def message():
-    return "Hello, World!"
+
 
 #Print Statements
 print(f'Addition of {number1} + {number2} is', add(number1, number2))
