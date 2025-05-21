@@ -1,23 +1,23 @@
 
 #Variables
-num1 = 10
-num2 = 5
+number1 = 10
+number2 = 5
 
 #Methods
-def add(num1, num2):
-    return num1 + num2
+def add(number1, number2):
+    return number1 + number2
 
-def subtract(num1, num2):
-    return num1 - num2
+def subtract(number1, number2):
+    return number1 - number2
 
-def multiply(num1, num2):
-    return num1 * num2
+def multiply(number1, number2):
+    return number1 * number2
 
 
 def message():
     return "Hello, World!"
 
 #Print Statements
-print(f'Addition of {num1} + {num2} is', add(num1, num2))
-print(f'Subtraction of {num1} - {num2} is', subtract(num1, num2))
-print(f'Multiply of {num1} / {num2} is', multiply(num1, num2))
+print(f'Addition of {number1} + {number2} is', add(number1, number2))
+print(f'Subtraction of {number1} - {number2} is', subtract(number1, number2))
+print(f'Multiply of {number1} / {number2} is', multiply(number1, number2))
