@@ -6,7 +6,7 @@ width=10
 def _area(length, width):
     return length * width
 
-area=length * width
+area = length * width
 
 #Output
 print(f'Area of rectangle with length {length} and width {width} is {area}' )
