@@ -1,10 +1,11 @@
-#varibles
-hours=2
-seconds = hours * 3600 
+# future_age_calculator.py
 
-# hours to seconds
-def hours_to_seconds(hours):
-    return hours * 60 * 60
+# Prompt the user for their current age
+current_age = int(input("How old are you? "))
 
-# Output
-print(f'{hours} hours is equal to {seconds} seconds')
+# Calculate future age in the year 2050
+years_to_2050 = 2050 - 2023
+future_age = current_age + years_to_2050
+
+# Output the result
+print(f"In 2050, you will be {future_age} years old.")
